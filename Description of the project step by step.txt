@@ -1,0 +1,23 @@
+Importing Libraries: The initial step is to import necessary libraries like pandas, numpy, matplotlib, seaborn, and scikit-learn, which are used for data manipulation, visualization, and machine learning tasks.
+
+Loading the Dataset: The dataset "Telco-Customer-Churn.csv" is loaded into a pandas DataFrame named 'df'.
+
+Exploring the Dataset: The code snippet df.info() provides information about the dataset, including the data types and the presence of missing values. df.isnull().sum() checks for missing values in each column.
+
+Data Cleaning and Preprocessing: In this step, unnecessary columns (like 'customerID') are dropped, and categorical variables are converted into dummy variables using one-hot encoding or label encoding. This prepares the data for machine learning algorithms.
+
+Feature Selection: SelectKBest with chi-square is used for feature selection. It selects the top k features that have the strongest relationship with the target variable.
+
+Splitting the Data: The dataset is split into training and testing sets using train_test_split from scikit-learn.
+
+Building and Evaluating Logistic Regression Model: Logistic regression is trained on the training data, and predictions are made on the testing data. Accuracy, confusion matrix, and classification report are used to evaluate the model's performance.
+
+Building and Evaluating Random Forest Model: Similar to logistic regression, a random forest classifier is trained and evaluated using accuracy, confusion matrix, and classification report.
+
+Handling Class Imbalance: SMOTE (Synthetic Minority Over-sampling Technique) is applied to handle class imbalance by oversampling the minority class (churned customers) in the training set.
+
+Hyperparameter Tuning: GridSearchCV is used to tune the hyperparameters of the random forest classifier using cross-validation.
+
+Training the Tuned Model: The random forest classifier is trained again with the best parameters obtained from GridSearchCV.
+
+Final Evaluation: The tuned random forest model is evaluated on the testing data using accuracy, confusion matrix, and classification report.
