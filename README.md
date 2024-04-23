@@ -1,7 +1,13 @@
 # Customer Churn Prediction for Financial Services Sector
-Customer churn presents a significant financial challenge for companies operating in various industries, including telecommunications. In the context of the financial sector, such as banking or insurance, retaining customers is crucial for maintaining revenue streams and profitability. Therefore, developing predictive models to identify customers at risk of churn is paramount for financial institutions. This project will focus on applying machine learning techniques to analyze financial data and build a predictive model that can effectively identify customers likely to churn, enabling financial companies to implement targeted retention strategies and safeguard their revenue and profitability.
+Description:
+A predictive model developed to identify potential customer churn in the financial services sector using machine learning algorithms.
 
-# Key Achievements:
-I spearheaded the development of a predictive model aimed at identifying potential customer churn within the financial services sector. Leveraging machine learning algorithms, I meticulously analyzed historical customer data to uncover patterns indicative of churn behavior.
+Technologies Used:
+Python
+pandas
+scikit-learn
 
-Utilizing Python with pandas for data preprocessing and scikit-learn for model development, I engineered features and fine-tuned model parameters to optimize predictive performance. Through rigorous testing and validation, the model achieved an impressive accuracy of 76.55%, empowering the organization to implement proactive customer retention strategies.
+Key Features:
+Data preprocessing using pandas.
+Model development using scikit-learn.
+Achieved an accuracy of 76.55% for proactive customer retention strategies.
