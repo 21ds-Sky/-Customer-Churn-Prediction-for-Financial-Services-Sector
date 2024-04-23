@@ -2,13 +2,16 @@
 Description:
 A predictive model developed to identify potential customer churn in the financial services sector using machine learning algorithms.
 
+------------------------
 Technologies Used:
+
 Python
 
 pandas
 
 scikit-learn
 
+------------------------
 Key Features:
 
 Data preprocessing using pandas.
